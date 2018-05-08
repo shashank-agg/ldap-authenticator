@@ -1,0 +1,7 @@
+{
+    "url": "ldap://ldap.forumsys.com",
+    "bindDN": "cn=read-only-admin,dc=example,dc=com",
+    "bindCredentials": "password",
+    "searchBase": "dc=example,dc=com",
+    "searchFilter": "uid={{username}}"
+}
